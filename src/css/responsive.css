@@ -1,0 +1,131 @@
+@media (max-width: 1200px) {
+    main {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .cabecalho h1 {
+        color: rgb(93, 45, 138);
+    }
+
+
+
+    .cabecalho nav a {
+        color: rgb(93, 45, 138);
+    }
+
+
+
+    .cabecalho nav a:hover, h1:hover {
+        color: rgb(130, 30, 223);
+    }
+
+    main figure img {
+        transition: box-shadow 0.3s ease-in-out;
+        border: 2px rgb(93, 45, 138) solid;
+    }
+
+
+
+    main figure img:hover {
+        box-shadow: 0px 0px 3px #d503ff;
+    }
+
+
+
+    .main-content {
+        width: 100%;
+        align-items: center;
+        margin-bottom: 15%;
+    }
+
+
+
+    main .main-content .text, .techs li {
+        width: 85%;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    main .techs .cards-container p {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+
+
+    main .techs .cards-container, .main-content .techs P {
+        margin-top: 32px;
+    }
+
+
+
+    .card {
+
+        transition: box-shadow 0.2s ease-in-out;
+        height: 70px;
+    }
+
+
+
+    .card:hover {
+        box-shadow: 0px 0px 9px #d503ff;
+    }
+
+
+
+    img {
+        width: 60px;
+    }
+
+
+}
+
+@media (max-width:700px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+ 
+
+    .cabecalho h1 {
+        font-size: 2em;
+    }
+
+
+    .cabecalho nav {
+        margin-top: 24px;
+    }
+
+
+    .cabecalho nav a {
+        font-size: 1em;
+    }
+
+
+    .card {
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+
+
+    main figure img {
+        width: 250px;
+        height: 250px;
+    }
+    
+}
